@@ -1,0 +1,22 @@
+.Message{
+    border-radius: 5px;
+    text-align: left;
+    min-width: 50px;
+    max-width: 70%;
+    padding: 5px;
+    overflow-wrap: break-word;
+}
+
+.UserMessage{
+    float: right;
+    clear: left;
+    background-color: #364760;
+    color: #efefe1;
+}
+
+.BotMessage{
+    float: left;
+    clear: right;
+    background-color: #8c8c83;
+    color: #30302d;
+}

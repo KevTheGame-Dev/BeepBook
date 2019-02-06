@@ -1,0 +1,41 @@
+.ChatBox{
+    background-color: #efefe1;
+    color: #30302d;
+    border-right: 1px solid #30302d;
+
+    position: relative;
+    bottom: 0px;
+    width: 30%;
+    height: 100%;
+    margin-left: 0px;
+    float: left;
+    box-sizing: border-box;
+}
+
+.MessageList{
+    height: calc(100% - 35px);
+    list-style: none;
+    padding: 0px 5px;
+    padding-top: 5px;
+    padding-bottom: 0px;
+    margin: 0px;
+    overflow: auto;
+}
+
+.MessageList li:last-child{
+    margin-bottom: 10px;
+}
+
+.ChatBoxInput{
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+}
+
+.ChatBoxInput input{
+    width: 100%;
+    height: 30px;
+    box-sizing: border-box;
+    border: none;
+    border-top: 1px solid #30302d;
+}

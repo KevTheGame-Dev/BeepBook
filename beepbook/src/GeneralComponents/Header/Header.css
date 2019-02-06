@@ -1,0 +1,42 @@
+.Header{
+    background-color: #30302d;
+    color: #efefe1;
+
+    position: relative;
+    top: 0px;
+    width: 100%;
+}
+
+.navbar{
+    width: 100%;
+}
+
+.navbar ul{
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+
+.navbar ul li{
+    display: inline-block;
+}
+
+.navbar ul li a{
+    color: #efefe1;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    font-size: 200%;
+
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    padding: 14px 16px;
+}
+
+.navbar ul li:hover{
+    background-color: #8c8c83;
+}
+
+.navbar ul li:hover a{
+    color: #30302d;
+}
