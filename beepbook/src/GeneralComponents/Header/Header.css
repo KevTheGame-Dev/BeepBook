@@ -7,25 +7,31 @@
     width: 100%;
 }
 
-.navbar{
-    width: 100%;
+.Navbar{
+    width: 85%;
+    display: inline-block;
 }
 
-.navbar ul{
-    margin: 0px;
+.Navbar ul{
+    margin: 0px 0px 0px calc((100% * 1.177) * .15); 
+    /*
+        calc is getting 15% width of the parent's parent object (in this case, the page width). 
+        1.177 is derived from value of 100/85, to convert parent width to parent's parent width. 
+        Then multiply by .15 to get targeted width.
+    */
     padding: 0px;
     list-style-type: none;
 }
 
-.navbar ul li{
+.Navbar ul li{
     display: inline-block;
 }
 
-.navbar ul li a{
+.Navbar ul li a{
     color: #efefe1;
     font-family: 'Roboto', sans-serif;
-    font-weight: bolder;
-    font-size: 200%;
+    font-weight: bold;
+    font-size: 150%;
 
     display: block;
     text-align: center;
@@ -33,10 +39,47 @@
     padding: 14px 16px;
 }
 
-.navbar ul li:hover{
+.Navbar ul li:hover{
     background-color: #8c8c83;
 }
 
-.navbar ul li:hover a{
+.Navbar ul li:hover a{
+    color: #30302d;
+}
+
+
+.Account{
+    width: 15%;
+    display: inline-block;
+    height: 100%;
+}
+
+.AccountName{
+    width: 50%;
+    display: inline-block;
+}
+
+.LoginButton{
+    width: 50%;
+    display: inline-block;
+}
+
+.LoginButton:hover{
+    background-color: #8c8c83;
+}
+
+.LoginButton a{
+    color: #efefe1;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 150%;
+
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    padding: 14px 16px;
+}
+
+.LoginButton:hover a{
     color: #30302d;
 }
