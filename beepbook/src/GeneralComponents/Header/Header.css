@@ -68,11 +68,16 @@
     background-color: #8c8c83;
 }
 
-.LoginButton a{
+.LoginButton button{
+    background: none;
+	border: none;
+    outline: inherit;
+    cursor: pointer;
     color: #efefe1;
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
     font-size: 150%;
+    text-align: center;
 
     display: block;
     text-align: center;
@@ -80,6 +85,6 @@
     padding: 14px 16px;
 }
 
-.LoginButton:hover a{
+.LoginButton:hover button{
     color: #30302d;
 }

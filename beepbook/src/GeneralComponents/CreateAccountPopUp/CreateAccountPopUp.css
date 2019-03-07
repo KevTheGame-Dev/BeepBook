@@ -1,0 +1,22 @@
+.PopUpContainer{
+    position: fixed;
+    z-index: 998;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(90 , 90, 90, 0.7)
+}
+
+.PopUp{
+    z-index: 999;
+    margin: 10% auto;
+    width: 30%;
+    height: 400px;
+    background-color: #efefe1;
+    border: 2px solid #30302d;
+}
+
+.CreateAccountError{
+    color: red;
+}
